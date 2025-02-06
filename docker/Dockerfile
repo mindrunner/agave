@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-ARG agave_version=2.0.16
+ARG agave_version=2.1.13
 ENV AGAVE_VERSION=${agave_version}
 ENV PATH="/home/agave/.local/share/solana/install/active_release/bin:$PATH"
 
